@@ -1,0 +1,7 @@
+version: '3.9'
+services:
+  redis:
+    container_name: redis-local
+    image: arm64v8/redis
+    ports:
+      - "6379:6379"
